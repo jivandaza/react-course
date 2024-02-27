@@ -1,0 +1,73 @@
+/* Estructura Principal */
+
+.task-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Campo de Texto */
+
+.task-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.task-input.success {
+    border: 2px solid #00471b;
+}
+
+.task-input.failed {
+    border: 2px solid red;
+}
+
+/* Botón Agregar Tarea */
+
+.task-button {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #2e6ae5;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.task-button:hover {
+    opacity: .7;
+}
+
+.task-button.show {
+    display: block;
+}
+
+.task-button.close {
+    display: none;
+}
+
+.task-information-content {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.task-information-content.show {
+    display: flex;
+}
+
+.task-information {
+    width: 450px;
+    font-size: 20px;
+    color: #ac0246;
+    user-select: none;
+}

@@ -1,0 +1,12 @@
+.information-message-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+}
+
+.information-message-text {
+    font-size: 20px;
+    color: #ac0246;
+    user-select: none;
+}
