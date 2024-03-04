@@ -1,4 +1,3 @@
-import logoFreeCodeCamp from './images/freecodecamp-logo.png';
 import Button from './components/Button.js';
 import Screen from './components/Screen.js';
 import ButtonClear from './components/ButtonClear.js';
@@ -48,13 +47,6 @@ function App() {
 
     return (
         <div className='App'>
-            <div className='freecodecamp-logo-container'>
-                <img
-                    src={logoFreeCodeCamp}
-                    alt='Logo de FreeCodeCamp'
-                    className='freecodecamp-logo'
-                />
-            </div>
             <div className='container-calculator'>
                 <Screen
                     input = {input}

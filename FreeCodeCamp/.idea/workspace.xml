@@ -16,9 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2csfM6OSn14yT6bU0WwF04dDVay" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USUARIO/Documents/Programacion/React/Cursos/FreeCodeCamp/contador-clics-clase/src",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/Programacion/React/Cursos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708905157812</updated>
       <workItem from="1708905160781" duration="37394000" />
+      <workItem from="1709509581665" duration="22000" />
     </task>
     <servers />
   </component>
